@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family:Arial, Helvetica, sans-serif; */
+}
+.wrapper{
+    width: 100%;
+    background-color: #f5d0d7;
+}
+.container{
+    width: 600px;
+    margin: auto;
+    height: auto;
+    background-color: #fff;
+}
+header{
+    background-color: #fff;
+}
+header p{
+text-align: center;
+padding: 10px 0;
+margin: 0 90px;
+background-color: #fd3961;
+color: #fff;
+transform: translateY(10px);
+}
+h1{
+    color: #fd3961;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 1mm;
+    padding-top: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family:Courier New;
+    font-weight: 900;
+}
+/* ----------BANNER----------------- */
+.banner img{
+    width: 100%;
+}
+/* --------------------offer--------- */
+.offer{
+    background-color: #fff;
+    margin-top: -11px;
+}
+.offer h1{
+    font-size: 40px;
+}
+.offer p{
+    background: none;
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    color: #fd3961;
+}
+.btn{
+text-align: center;
+margin-top: 10px;
+}
+button{
+    padding: 10px 20px;
+    background-color: #113a6e;
+    color: azure;
+    border: none;
+}
+.about img{
+width: 100%;
+margin-top: 20px;
+}
+.about .text p{
+    background: none;
+    position: ;
+    bottom: 10px;
+    width: 50%;
+    margin-left:auto ;
+    text-align: center;
+    color: azure;
+    text-shadow: 2px 2px 10px;
+    margin-top: -100px;
+    z-index: 1;
+}
+footer{
+    background-color: #fff;
+}
+footer h2{
+    color: #113a6e;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    position: relative;
+}
+footer h2::after{
+    content: '';
+    width: 168px;
+    height: 4px;
+    background-color: #113a6e;
+    position: absolute;
+    left: 209px;
+    top: -20px;
+}
+/* --------------2 nd page--------------- */
+.space{
+    width: 100%;
+    height: 40px;
+    background-color: #113a6e;
+}
+.newsore-banner{
+    background-color: #fd3961;
+    height: 300px;
+}
+.newsore-banner h1{
+    color: #113a6e;
+    background-color: transparent;
+    padding-top: 10px;
+    margin: 0;
+}
+.store-img{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/mens-shirts.jpg);
+    width: 80%;
+    margin: auto;
+    background-size: cover;
+    transform: translate(0,12%);
+}
+.store-img h1{
+    padding: 20px 20px;
+    text-align: right;
+    color: #fd3961;
+    /* font-family:cursive; */
+    font-size: 50px;
+    background-color: transparent;
+    padding-right: 50px;
+}
+.store-img p{
+    width: 80%;
+    margin:30px  auto;
+    text-align: center;
+    text-shadow: 2px 2px 10px;
+    color: azure;
+}
+.store-btn{
+    text-align: right;
+    padding: 10px 50px;   
+}
+/* ----------------store about-------------- */
+.store-about{
+    width: auto;
+    height: 300px;
+    background-color: #fff;
+}
+.about-text{
+    text-align: center;
+}
+.store-about p{
+    width: 80%;
+    margin: auto;
+    padding-top: 23%;
+}
+/* --------------------pic-content--------------- */
+.pic-content{
+    width: 100%;
+    height: 300px;
+    background-color: #fd3961;
+}
+.pic-content-img{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/pink-womens.jpg);
+    width: 274px;
+    height: 386px;
+    background-size: cover;
+    border: 10px solid #fd3961;
+    transform: translate(55%,-10%);
+}
+.pic-content-img h1{
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    margin-top: 225px;
+}
+.pic-content-img p{
+    text-align: center;
+    color: #fd3961;
+}
+/* --------------OREDER NOW---------------- */
+.order{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+.order p{
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    font-size: 25px;
+    letter-spacing: 2mm;
+    font-weight: 700;
+    color: #113a6e;
+    margin-top: 75px;
+    margin-left: 10px;
+}
+.btn-order{
+    text-align: center;
+}
+/* --------------- 3rd page----------------- */
+.new-collection{
+background: linear-gradient(90deg,#fff 50%,#f5aab9 50%);
+}
+
+.collection-head p{
+padding: 16px 0;
+background-color: #fd3961;
+text-align: center;
+color: #fff;
+margin: 0 94px 10px 271px;
+transform: translateY(10px);
+}
+.third-banner{
+    background: url(images/3rd-banner.png);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+}
+.third-banner p{
+    font-size: 50px;
+    font-weight: 900;
+    color: azure;
+    text-shadow: 2px 2px 10px red;
+    text-align: right;
+    padding: 70px 10px;
+}
+.third-banner hr{
+    width: 50%;
+    margin-left: auto;
+    margin-top: 10px;
+    height: 20px;
+    background-color: azure;
+}
+.third-condent h1{
+text-align: right;
+font-size: 70px;
+margin: 50px;
+text-shadow: 2px 2px 10px red;
+color: azure;
+}
+.third-condent p{
+    text-align: right;
+font-size: 20px;
+font-weight: 400;
+width: 70%;
+margin:0  0 0 25%;
+padding: 0;
+color: azure;
+text-shadow: 2px 2px 10px red;
+}
+.third-condent .third-button{
+text-align: right;
+margin:50px ;
+}
+.third-offer h1{
+    width: 50%;
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 8px;
+}
+.third-about p{
+     width: 80%;
+     margin: auto;
+     text-align: center;
+     padding: 29px 36px;
+     color: #fd3961;
+     /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+.third-footer h3{
+    text-align: center;
+    letter-spacing: 1mm;
+    color: #fd3961;
+}
+.third-footer .icon{
+    text-align: center;
+}
+.third-footer .icon i{
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+    background-color: #fd3961;
+    border-radius: 50px;
+}
+
+/* ------------media query 450px------------------- */
+@media (max-width : 450px) {
+    .wrapper{
+        width: 100%;
+        background-color: #f5d0d7;
+    }
+    .container{
+        width: 100%;
+        margin: auto;
+        height: auto;
+        background-color: #fff;
+    }
+    h1{
+        color: #fd3961;
+        text-align: center;
+        font-size: 31px;
+        letter-spacing: 0.5mm;
+        padding-top: 25px;
+    }
+    p{
+        font-family:Courier New;
+        font-weight: 700;
+    }
+    .offer h1{
+        font-size: 25px;
+    }
+    .offer p{
+        width: 80%;
+        font-size: 11px;
+    }
+    .about .text p{
+        width: 48%;
+        margin-right: 1px;
+        margin-top: -88px;
+        color: azure;
+        z-index: 1;
+        font-size: 11px;
+    }
+    footer h2::after{
+        width: 110px;
+        left: 155px;
+        top: -10px;
+    }
+    footer h2{
+        margin-top: 43px;
+        font-size: 15px;
+    }
+    .newsore-banner{
+        height: 200px;
+    }
+    .newsore-banner h1{
+        color: #113a6e;
+        background-color: transparent;
+        padding-top: 10px;
+        margin: 0;
+    }
+    .store-img{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/mens-shirts.jpg);
+        width: 80%;
+        margin: auto;
+        height: 86%;
+        background-size: cover;
+        transform: translate(0,26%);
+    }
+    .store-img h1{
+        color: #fd3961;
+        font-size: 30px;
+        padding-right: 45px;
+    }
+    .store-img p{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        color: azure;
+        text-shadow: 2px 2px 10px;
+    }
+    .store-btn{
+        text-align: right;
+        padding:10px 40px;   
+    }
+    .store-about{
+        height: 200px;
+    }
+    .store-about p{
+        font-size: 13px;
+    }
+    .pic-content{
+        height: 200px;
+    }
+    .pic-content-img{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/pink-womens.jpg);
+        width: 55%;
+        height: 125%;
+        background-size: cover;
+        border: 10px solid #fd3961;
+        transform: translate(42%,-10%);
+    }
+    .pic-content-img h1{
+        margin-top: 107px;
+    }
+    .order{
+        height: 72px;
+    }
+    .order p{
+        font-size: 17px;
+        letter-spacing: 1mm;
+        font-weight: 700;
+        margin-top: 47px;
+        margin-left: 29px;
+    }
+    .collection-head p{
+        padding: 11px 0;
+        margin: 0 18% 0 43% ;
+        font-size: 11px;
+        transform: translateY(10px);
+        }
+    .collection-head h1{
+        font-size: 20px;
+    }
+    .third-banner{
+        background: url(images/3rd-banner.jfif);
+        width: 100%;
+        height: 421px;
+        background-size: cover;
+    }
+    .third-banner p{
+        font-size: 30px;
+        font-weight: 900;
+        text-align: right;
+        padding: 40px 15px;
+    }
+    .third-condent h1{
+        text-align: right;
+        font-size: 37px;
+        margin:  2px;
+    }
+    .third-condent p{
+        text-align: right;
+        font-size: 15px;
+        font-weight: 400;
+        width: 70%;
+        margin:0  0 0 25%;
+        padding: 0;
+    }
+    .third-condent .third-button{
+        margin:10px ;
+    }
+    .third-about p{
+        font-size: 11px;
+        padding: 20px 20px;
+   }
+   .third-offer h1{
+    font-size: 25px;
+   }
+   .third-footer h3{
+    font-size: 15px;
+    letter-spacing: 0.5mm;
+}
+
+
+
+}
